@@ -6,6 +6,9 @@ export const AlumniNavigation = () => {
       variant="sticky"
       right={
         <div className="flex items-center space-x-8 mr-4">
+          <a href="https://alumnicard.netlify.app/" className="nav-link">
+            Alumni Card
+          </a>
           <a href="#benefits" className="nav-link">
             Benefits
           </a>

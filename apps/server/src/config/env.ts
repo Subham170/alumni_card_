@@ -13,6 +13,7 @@ export default {
   port: process.env.PORT || 5000,
   url: process.env.URL || 'http://localhost:5000',
   db: {
+    url: process.env.DB_URL || 'localhost',
     host: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || 27017,
     name: process.env.DB_NAME || 'something',

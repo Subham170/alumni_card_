@@ -3,7 +3,7 @@ import { env } from '../config';
 
 const mongooseLoader = async () => {
   const connection = await mongoose.connect(
-    `mongodb://${env.db.host}:${env.db.port}/${env.db.name}`,
+    `${env.db.url}`
   );
 
   return connection.connection.db;
